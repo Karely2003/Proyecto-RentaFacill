@@ -86,11 +86,11 @@ interface Inmueble {
     }
 
    <div className="card">
-     <div className="card-header bg-success text-white">Ubicación del Inmueble</div>
+     <div className="w-100 card-header bg-success text-white">Ubicación del Inmueble</div>
       <MapContainer
         center={ubicaciones[0]}
         zoom={9}
-        className="w-screen h-screen m-0 p-0 overflow-hidden"
+        className="w-100 h-200 m-0 p-0 overflow-hidden"
         scrollWheelZoom={true}
       >
         <TileLayer
